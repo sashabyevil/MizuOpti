@@ -4,6 +4,7 @@
   "version": "${version}",
   "name": "MizuOpti",
   "description": "Снижает нагрузку от AI далёких мобов, не отключая физику сущностей.",
+  "license": "MIT",
   "environment": "*",
   "entrypoints": {
     "main": [
