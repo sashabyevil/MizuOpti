@@ -4,6 +4,9 @@
   "mixins": [
     "MobAiTickMixin"
   ],
+  "client": [
+    "MobRenderDistanceMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   }

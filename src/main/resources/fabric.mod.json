@@ -3,12 +3,15 @@
   "id": "mizuopti",
   "version": "${version}",
   "name": "MizuOpti",
-  "description": "Снижает нагрузку от AI далёких мобов, не отключая физику сущностей.",
+  "description": "Снижает нагрузку от AI мобов и клиентского рендеринга дальних мобов.",
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
     "main": [
       "dev.mizuopti.MizuOpti"
+    ],
+    "client": [
+      "dev.mizuopti.MizuOptiClient"
     ]
   },
   "mixins": [
