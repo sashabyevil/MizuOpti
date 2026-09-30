@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "package": "dev.mizuopti.mixin",
+  "mixins": [
+    "MobAiTickMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
